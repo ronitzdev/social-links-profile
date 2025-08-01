@@ -35,13 +35,13 @@ body {
 
 /* card */
 .main {
-    width: 320px;
-    min-width: 320px;
-    max-width: 500px;
+    width: 20rem;         /* antes: 320px */
+    min-width: 20rem;     /* antes: 320px */
+    max-width: 31.25rem;  /* antes: 500px */
     height: auto;
-    margin: 0 20px;
+    margin: 0 1.25rem;    /* antes: 0 20px */
     background-color: var(--dark-gray);
-    border-radius: 12px;
+    border-radius: 1.2rem; /* antes: 12px */
 }
 
 /* img */
@@ -54,7 +54,7 @@ body {
 .presentation__figure .figure__img {
     width: 30%;
     border-radius: 50%;
-    margin-top: 40px;
+    margin-block-start: 40px; /* antes: margin-top: 40px; */
 }
 
 /* title and subtitle */
