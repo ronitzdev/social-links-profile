@@ -38,9 +38,7 @@ body {
     width: 20rem;         /* antes: 320px */
     min-width: 20rem;     /* antes: 320px */
     max-width: 31.25rem;  /* antes: 500px */
-    height: auto;
     margin: 0 1.25rem;    /* antes: 0 20px */
-    background-color: var(--dark-gray);
     border-radius: 1.2rem; /* antes: 12px */
 }
 
@@ -54,14 +52,14 @@ body {
 .presentation__figure .figure__img {
     width: 30%;
     border-radius: 50%;
-    margin-block-start: 40px; /* antes: margin-top: 40px; */
+    margin-block-start: 4rem; /* antes: 40px */
 }
 
 /* title and subtitle */
 .presentation__subtitle {
     text-align: center;
     line-height: 1.7;
-    margin: 18px 0;
+    margin: 1.8rem 0; /* antes: 18px 0 */
 }
 
 .presentation__subtitle #subtitle__name {
@@ -81,29 +79,29 @@ body {
     font-weight: 400;
     font-size: 1.3rem;
     color: var(--gray-white);
-    padding-bottom: 25px;
+    padding-bottom: 2.5rem; /* antes: 25px */
 }
 
 /* social links */
 
 .social-links {
-    margin: 0 28px;
-    padding-bottom: 28px;
+    margin: 0 2.8rem; /* antes: 0 28px */
+    padding-bottom: 2.8rem; /* antes: 28px */
 }
 
 .menu-links {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 1.5rem; /* antes: 15px */
     text-align: center;
     height: 100%;
 }
 
 .link__social {
     background-color: var(--gray);
-    padding: 12px 0;
-    border-radius: 8px;
+    padding: 1.2rem 0; /* antes: 12px 0 */
+    border-radius: 0.8rem; /* antes: 8px */
 }
 
 .link {
